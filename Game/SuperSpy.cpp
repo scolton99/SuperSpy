@@ -48,7 +48,6 @@ int main(array<System::String ^> ^args)
 	showtitle();
 
 	cout << endl << "      And your age?" << endl << endl << "      ";
-	
 	do{
 		
 		cin >> player.age;
@@ -84,9 +83,9 @@ int main(array<System::String ^> ^args)
 		"government has recently learned that Iraq is planning a missile strike against" << endl <<
 		"the US.  A sleeper cell in the central US has the missile activation code, and" << endl <<
 		"will release it tomorrow night at midnight if not stopped.  You have been chosento find them, and" << 
-		"take them out silently before 12 AM tomorrow.  You have only" << endl
+		" take them out silently before 12 AM tomorrow.  You have only" << endl
 		<< "one guess at who the suspect is.  You can only look at information 5 times, and" << endl
-		<< "there are 5 suspects.  You may look at this information again, but it will cost you a turn.  Good luck." << endl
+		<< "there are 5 suspects.  You may look at the intel, but it will cost you a turn." << endl
 		<< endl;
 
 	showspy(0);
@@ -95,18 +94,7 @@ int main(array<System::String ^> ^args)
 	
 	system("pause");
 
-	system("CLS");
-
-	cout << "Intel: "<< endl << "  - Location: Nebraska/Kansas/Oklahoma" << endl <<
-		"  - Race:  Unknown, Most likely Caucasian" << endl << "  - Age:  30-50" << endl << endl;
-
-	cout << endl << "The suspects may or may not have a passport.  We have no time to check" << endl
-		<< "if the passport is valid.  Most criminals do not get a passport due to" << endl
-		<< "possible complications, but this specific one is crafty.  He/she may" << endl
-		<< "have one.  The suspects have been through a polygraph test so you can" << endl
-		<< "be sure that the information we have on them is true.  Good luck." << endl << endl;
-	
-	system("pause");
+	showinfo(6);
 
 	system("CLS");
 
@@ -341,6 +329,20 @@ void showinfo(int i){																											// Show information again or sho
 		cout << "|Alibi: I'm not of Iraqi descent.|" << endl;
 		cout << "----------------------------------" << endl;
 		return;
+	}
+	if ( i == 6 ) {
+		system("CLS");
+		cout << "Intel: "<< endl << "  - Location: Nebraska/Kansas/Oklahoma" << endl <<
+			"  - Race:  Unknown, Most likely Caucasian" << endl << "  - Age:  30-50" << endl << endl;
+
+		cout << endl << "The suspects may or may not have a passport.  We have no time to check" << endl
+			<< "if the passport is valid.  Most criminals do not get a passport due to" << endl
+			<< "possible complications, but this specific one is crafty.  He/she may" << endl
+			<< "have one.  The suspects have been through a polygraph test so you can" << endl
+			<< "be sure that the information we have on them is true.  Good luck." << endl << endl;
+
+		system("pause");
+
 	}
 }	// Show information on a suspect or show intel again
 
