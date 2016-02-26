@@ -1,0 +1,6 @@
+Name, Spy Number, Age, Gender, Turns Taken
+
+Spencer, 6005, 100, Male - 2
+Spencer, 6596, 14, Male - 4
+Spencer, 6713, 14, Male - 5
+Spencer, 8477, 14, Male - 2

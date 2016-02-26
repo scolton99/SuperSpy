@@ -1,0 +1,25 @@
+﻿Build started 7/19/2012 4:18:54 PM.
+     1>Project "C:\Users\Student\Desktop\Spencer C\SuperSpy\Game\Game.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SuperSpy.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Game.vcxproj -> C:\Users\Student\Desktop\Spencer C\SuperSpy\Debug\SuperSpy.exe
+       MetaGen:
+       Skipping target "MetaGen" because all output files are up-to-date with respect to the input files.
+       FinalizeBuildStatus:
+         Deleting file "Debug\SuperSpy.unsuccessfulbuild".
+         Touching "Debug\SuperSpy.lastbuildstate".
+     1>Done Building Project "C:\Users\Student\Desktop\Spencer C\SuperSpy\Game\Game.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.14
